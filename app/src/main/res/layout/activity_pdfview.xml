@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/shang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一页" />
+
+        <TextView
+            android:id="@+id/tv_page"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:id="@+id/xia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一页" />
+
+    </RelativeLayout>
+
+    <com.joanzapata.pdfview.PDFView
+        android:id="@+id/pdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
