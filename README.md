@@ -9,4 +9,6 @@
 - **pdfviewer** ：[pdfviewer](https://github.com/barteksc/AndroidPdfViewer)3000多个星星,作者也一直维护，就是库有点太大了，19M，耗费资源比PDFView稍微低一些。
 - **webview-js加载** ：利用webview配合pdf.js的方式进行加载，耗费资源较高。
 
+
+https://github.com/barteksc/AndroidPdfViewer   这个还没有测试  看起来感觉更好用 
 > 感谢以上作者
